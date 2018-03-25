@@ -24,7 +24,7 @@ Based on formula, calculate theta for every iteration:
   
   theta = theta - (alpha / m) * (X'*X*theta - X' * y);
   
-Predict for some value house with 1650 square feet and 3 bedrooms ?
+Now, Predict for some value house with 1650 square feet and 3 bedrooms ?
   
   normalize_size =  1650 - mean(sq.ft) / std(sq.ft) <br>
   normalize_rooms = 3 - mean(rooms) / std(rooms)<br>
