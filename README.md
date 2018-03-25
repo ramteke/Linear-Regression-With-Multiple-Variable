@@ -18,16 +18,16 @@ Given predict the price of a house with 1650 square feet and 3 bedrooms ?
 
 <img src="Linear%20Regression%20-%20Multiple.png">
 
-<b>Step 1:</b> Normalize the data, i.e  normalized_value = current_value * mean / standard-deviation
+Normalize the data, i.e  normalized_value = current_value * mean / standard-deviation
 
-<b>Step 2:</b>  Based on formula, calculate theta:
+Based on formula, calculate theta for every iteration:
   
   theta = theta - (alpha / m) * (X'*X*theta - X' * y);
   
-<b>Step 3:</b> Predict for some value house with 1650 square feet and 3 bedrooms ?
+Predict for some value house with 1650 square feet and 3 bedrooms ?
   
-  normalize_size =  1650 - mean(sq.ft) / std(sq.ft)
-  normalize_rooms = 3 - mean(rooms) / std(rooms)
+  normalize_size =  1650 - mean(sq.ft) / std(sq.ft) <br>
+  normalize_rooms = 3 - mean(rooms) / std(rooms)<br>
   
   Y = [ 1 , normalize_size,  normalize_rooms] * theta
 
